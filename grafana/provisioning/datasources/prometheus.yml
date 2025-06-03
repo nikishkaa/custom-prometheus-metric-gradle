@@ -6,4 +6,11 @@ datasources:
     access: proxy
     url: http://prometheus:9090
     isDefault: true
-    editable: true 
+    editable: true
+    version: 1
+    jsonData:
+      timeInterval: 15s
+      httpMethod: GET
+      httpHeaderName1: "X-Scope-OrgID"
+    secureJsonData:
+      httpHeaderValue1: "1" 
